@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:background="@drawable/login_background"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_backround"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Page"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/username_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="20dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20dp"
+            android:layout_marginTop="175dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/login_bt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="Login"
+            android:background="@drawable/button_backround"
+            android:textColor="#800080"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/signup_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:textColor="#FFFFFF"
+            android:text="Don't have an account?\nGoto Signup page..."/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
